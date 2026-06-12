@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "IBMPlexSansJP";
+  src: url(../../../_FONTS/IBM_Plex_Sans_JP/IBMPlexSansJP-Regular.ttf) format("trueType");
+}
+
+:root {
+  --color-bg-primary: #f4f8fb;
+  --color-bg-secondary: #e7eef5;
+  --color-bg-invert: var(--color-text-primary);
+
+  --color-text-primary: #23313f;
+  --color-text-secondary: #5c6f82;
+  --color-text-invert: var(--color-bg-primary);
+
+  --color-border-primary: #c9d6e2;
+  --color-border-secondary: #dce5ed;
+
+  --color-accent-primary: #4f9fd8;
+  --color-accent-secondary: #82c4ea;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: "IBMPlexSansJP", "Yu Gothic Medium", sans-serif;
+}
